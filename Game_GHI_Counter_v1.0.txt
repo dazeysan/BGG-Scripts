@@ -1,0 +1,1 @@
+javascript:{{offset=1;page=1;spliturl=document.URL.split("/");if(spliturl[spliturl.length-2]=="page"){offset+=((spliturl[spliturl.length-1]-1)*100);}tdlist=document.getElementsByClassName("lf");for(i=0;i<tdlist.length;i++){tdlist[i].style.width="100px";tmptd=document.createElement("td");tmptd.appendText(i+offset);tdlist[i].parentNode.appendChild(tmptd);}void(0);}}
